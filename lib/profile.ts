@@ -24,7 +24,16 @@ export const profile = {
   seo: {
     title: "Mohamed Thaha | Technology Delivery Leader | Technical Program Manager",
     description:
-      "Professional profile of Mohamed Thaha, a technology delivery leader and technical program manager with 18+ years of experience across enterprise engineering, digital transformation, production operations, SRE and AI-enabled delivery.",
+      "Professional profile of Mohamed Thaha — technology delivery leader and technical program manager with 18+ years across engineering leadership, technical program management, SRE, digital transformation and AI-enabled delivery exploration.",
+    keywords: [
+      "Technology Delivery",
+      "Technical Program Management",
+      "Engineering Leadership",
+      "Generative AI",
+      "SRE",
+      "Digital Transformation",
+      "AI Transformation",
+    ],
     siteName: "Mohamed Thaha",
   },
 } as const;
@@ -32,8 +41,8 @@ export const profile = {
 export const navigation = [
   { label: "Journey", href: "#journey" },
   { label: "Impact", href: "#impact" },
+  { label: "AI LAB", href: "#ai-transformation" },
   { label: "Experience", href: "#experience" },
-  { label: "AI & Transformation", href: "#ai-transformation" },
   { label: "Resume", href: "#resume" },
   { label: "Contact", href: "#contact" },
 ] as const;
@@ -120,50 +129,6 @@ export const leadershipCapabilities = [
     ],
   },
 ] as const;
-
-export const aiTransformation = {
-  intro:
-    "Currently exploring how Generative AI, AI-assisted development and agentic workflows can transform technology delivery and operations.",
-  principle:
-    "AI augments people. It does not replace engineering or management judgment.",
-  concepts: [
-    {
-      title: "AI-ENABLED DELIVERY COMMAND CENTRE",
-      inputs: [
-        "Jira",
-        "Confluence",
-        "Delivery Data",
-        "Operational Data",
-        "Incidents",
-        "Releases",
-      ],
-      outputs: [
-        "Project Health",
-        "Risk Detection",
-        "Dependencies",
-        "Predictability",
-        "Quality Trends",
-        "Executive Insights",
-      ],
-      description:
-        "Exploring a shift from manually collected project status toward data-driven and AI-assisted delivery decision support.",
-    },
-    {
-      title: "AI / SRE OPERATING MODEL",
-      flow: [
-        "OBSERVE",
-        "DETECT",
-        "INVESTIGATE",
-        "EXPLAIN",
-        "RECOMMEND",
-        "ACT",
-        "LEARN",
-      ],
-      description:
-        "Exploring how agentic AI could augment traditional production support through alert correlation, incident investigation, knowledge generation and proactive operational decision support.",
-    },
-  ],
-} as const;
 
 export const technologyLandscape = [
   {

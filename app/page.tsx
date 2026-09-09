@@ -19,8 +19,8 @@ export default function Home() {
         <CareerJourney />
         <ImpactMetrics />
         <LeadershipCapabilities />
-        <Experience />
         <AITransformation />
+        <Experience />
         <TechnologyLandscape />
         <ResumeCTA />
         <Contact />

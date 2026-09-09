@@ -12,6 +12,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: profile.seo.title,
   description: profile.seo.description,
+  keywords: [...profile.seo.keywords],
   openGraph: {
     title: profile.seo.title,
     description: profile.seo.description,
