@@ -12,7 +12,7 @@ export const profile = {
     "Technology delivery leader with experience spanning enterprise software engineering, technical program management, digital transformation, production engineering, SRE and global service delivery.",
   email: "thaha.noor@yahoo.in",
   phone: "+91-9962418900",
-  linkedinUrl: "#",
+  linkedinUrl: "https://www.linkedin.com/in/mohamedthaha/",
   resumeUrl: "/resume/Mohamed_Thaha_Master_Executive_Resume.pdf",
   profileUrl: "#hero",
   location: "India & United States",
